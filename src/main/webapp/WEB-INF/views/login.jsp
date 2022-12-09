@@ -22,18 +22,20 @@
             }
         </style>
     </head>
-
     <body>
         <div id="first">
-            <img src='./img/christmas.jpg' height="250">
+            <img src='../img/christmas.jpg' height="250">
             <form method="post" action="loginOk">
                 <div>
                     <label>User ID: </label>
+                    <input type='text' name='userid'/>
+                </div>
+                <div>
+                    <label>Password: </label>
                     <input type='password' name='password'/>
                 </div>
                 <button type='submit'>login</button>
             </form>
         </div>
-
     </body>
 </html>
